@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "revit-windows": {
+      "command": "ssh",
+      "args": [
+        "-T",
+        "-l",
+        "YOUR_SSH_USER",
+        "YOUR_REVIT_HOST",
+        "cmd.exe /d /s /c \"npx -y mcp-server-for-revit\""
+      ],
+      "enabled": false,
+      "connectionTimeoutMs": 10000,
+      "requestTimeoutMs": 130000,
+      "supportsParallelToolCalls": false
+    }
+  }
+}

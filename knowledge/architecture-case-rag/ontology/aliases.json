@@ -1,0 +1,32 @@
+{
+  "problem": {
+    "daylight-ventilation": ["daylight", "natural-ventilation"],
+    "daylighting": ["daylight"],
+    "public-access": ["community-access"],
+    "pedestrian-priority": ["community-access"],
+    "heritage-adaptive-reuse": ["heritage-conservation", "urban-regeneration"],
+    "urban-repair": ["urban-regeneration"],
+    "cultural-memory": ["heritage-conservation"],
+    "campus-density": ["compact-site"],
+    "gathering": ["public-realm"],
+    "landscape-response": ["landscape-response"],
+    "topography": ["topography"],
+    "views": ["views"]
+  },
+  "strategy": {
+    "split-volumes": ["split-volume"],
+    "sunken": ["sunken-space"],
+    "underground": ["sunken-space"],
+    "circular-path": ["loop-circulation"],
+    "loop-path": ["loop-circulation"],
+    "pedestrian-routes": ["linear-circulation"],
+    "vertical": ["sectional-link"],
+    "terraced-housing": ["terrace", "stepped-massing"],
+    "renovation": ["adaptive-reuse"]
+  },
+  "site": {
+    "hillside-city": ["hillside"],
+    "urban-development": ["compact-urban"],
+    "urban-corner": ["compact-urban"]
+  }
+}

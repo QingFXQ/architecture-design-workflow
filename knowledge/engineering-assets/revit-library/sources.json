@@ -1,0 +1,162 @@
+{
+  "reviewed_on": "2026-10-30",
+  "sources": [
+    {
+      "id": "Autodesk-2021-Samples",
+      "title": "Autodesk Revit 2021 多专业原生样例",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-Samples",
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/Revit-GetStarted/files/GUID-61EF2F22-3A1F-4317-B925-1E85F138BE88.htm",
+      "extensions": [
+        ".rvt",
+        ".rfa"
+      ],
+      "rights": "Autodesk 安装内容；本机学习与授权软件内复用，未授予本仓库重新分发二进制的权利。"
+    },
+    {
+      "id": "Autodesk-2021-Templates-CHS",
+      "title": "Autodesk 2021 中文项目样板",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-Templates-CHS",
+      "url": "https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/4GHVi7gTcSUcp8AeaXuZP3.html",
+      "extensions": [
+        ".rte"
+      ],
+      "rights": "Autodesk 官方安装内容，保持原件；不是自制课程预设。"
+    },
+    {
+      "id": "Autodesk-2021-Templates-ENU",
+      "title": "Autodesk 2021 英文米制建筑与结构样板",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-Templates-ENU",
+      "url": "https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/4GHVi7gTcSUcp8AeaXuZP3.html",
+      "extensions": [
+        ".rte"
+      ],
+      "include": [
+        "DefaultMetric.rte",
+        "Construction-DefaultMetric.rte",
+        "CommercialGBRENU.rte",
+        "ConceptSketchGBRENU.rte",
+        "ResidentialGBRENU.rte",
+        "Structural Analysis-DefaultMetric.rte",
+        "Systems-Default_Metric.rte"
+      ],
+      "rights": "Autodesk 官方安装内容；单位须在工作副本核实，不凭文件夹认定。"
+    },
+    {
+      "id": "Autodesk-2021-Families-Metric",
+      "title": "Autodesk 2021 英文米制官方族库",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-Families-Metric",
+      "url": "https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/4GHVi7gTcSUcp8AeaXuZP3.html",
+      "extensions": [
+        ".rfa"
+      ],
+      "copy_type_catalogs": true,
+      "rights": "Autodesk 安装内容，不宣称开放许可；用于本机建模，勿直接整库公开或售卖。"
+    },
+    {
+      "id": "Autodesk-2021-Families-CHS",
+      "title": "Autodesk 2021 中文结构预制族子集",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-Families-CHS",
+      "url": "https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/4GHVi7gTcSUcp8AeaXuZP3.html",
+      "extensions": [
+        ".rfa",
+        ".rte"
+      ],
+      "rights": "Autodesk 安装内容；这是预制子集，不冒充完整中文建筑族库。"
+    },
+    {
+      "id": "Autodesk-2021-FamilyTemplates-CHS",
+      "title": "Autodesk 2021 中文族样板",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-FamilyTemplates-CHS",
+      "url": "https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/4GHVi7gTcSUcp8AeaXuZP3.html",
+      "extensions": [
+        ".rft"
+      ],
+      "rights": "Autodesk 官方族作者样板，不能当可载入 RFA。"
+    },
+    {
+      "id": "Autodesk-2021-FamilyTemplates-ENU",
+      "title": "Autodesk 2021 英文米制族样板",
+      "method": "local-copy",
+      "local_path": "./local/authorized-revit-sources/Autodesk-2021-FamilyTemplates-ENU",
+      "url": "https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/4GHVi7gTcSUcp8AeaXuZP3.html",
+      "extensions": [
+        ".rft"
+      ],
+      "rights": "Autodesk 官方族作者样板；使用时从样板新建族并另存。"
+    },
+    {
+      "id": "Autodesk-Snowdon-2024",
+      "title": "Snowdon Towers 七专业完整协调样例",
+      "method": "official-links",
+      "url": "https://help.autodesk.com/cloudhelp/2026/ENU/Revit-GetStarted/files/GUID-61EF2F22-3A1F-4317-B925-1E85F138BE88.htm",
+      "match": "Snowdon Towers Sample ",
+      "allowed_hosts": [
+        "revit.downloads.autodesk.com"
+      ],
+      "expected_files": 7,
+      "rights": "Autodesk 官方公开下载学习样例，非开源授权；实际版本取文件元数据，不取网页年份。"
+    },
+    {
+      "id": "CIC-BIM-Competition-2024",
+      "title": "香港建造业议会 2024 BIM 比赛冠军与亚军作品原海报",
+      "method": "reference-downloads",
+      "url": "https://www.bim.cic.hk/en/events/page/winning_entries_2024",
+      "award_url": "https://www.cic.hk/files/press_release/410/en/CIC%20BIM%20Competition%202024_Press%20Release_Eng.pdf",
+      "native_files_downloaded": false,
+      "rights": "主办方公开原海报，仅作本机教学参考；非 RVT、非 RTE，不用于冒充原生工程或整页公开再分发。",
+      "downloads": [
+        {
+          "name": "冠军_Polyers_原海报.pdf",
+          "url": "https://www.bim.cic.hk/Upload/template_multi/111/self/32954e75d0a74109a743fd0be9208781.pdf"
+        },
+        {
+          "name": "亚军_B-Impressive_原海报.pdf",
+          "url": "https://www.bim.cic.hk/Upload/template_multi/111/self/0e21bcef621e4b698d459c87e90a19e1.pdf"
+        },
+        {
+          "name": "亚军_HKMU_原海报.pdf",
+          "url": "https://www.bim.cic.hk/Upload/template_multi/111/self/449ed0d76bee42ada5fad41614cfc322.pdf"
+        },
+        {
+          "name": "主办方获奖公告_2024.pdf",
+          "url": "https://www.cic.hk/files/press_release/410/en/CIC%20BIM%20Competition%202024_Press%20Release_Eng.pdf"
+        }
+      ]
+    },
+    {
+      "id": "BIMNet-openBIM-2025",
+      "title": "清华 BIMNet：2025 buildingSMART openBIM 学生研究奖",
+      "method": "candidate",
+      "url": "https://github.com/LydJason/BIMNet",
+      "award_url": "https://www.tsinghua.edu.cn/info/1175/121705.htm",
+      "status": "award-confirmed-access-request-required",
+      "native_files_downloaded": false,
+      "rights": "模型涉及 Matterport 许可与签署申请；GitHub 作者代码许可不能代替原始模型许可。不自动发邮件或提交用户资料。",
+      "notes": "获奖出处已核，数据权限待申请；不算现成可用 RVT。"
+    },
+    {
+      "id": "Yatai-library-claim",
+      "title": "第三方亚泰图书馆龙图杯参赛工程分享线索",
+      "method": "candidate",
+      "url": "https://www.bimxxw.com/ziliao/bimmodel/719.html",
+      "status": "award-unverified-download-gated",
+      "native_files_downloaded": false,
+      "rights": "第三方页面，下载需公众号验证码，未核作品授权与具体奖项；不绕过门槛，不列默认生产资源。"
+    },
+    {
+      "id": "WorldSkills-DigitalConstruction",
+      "title": "WorldSkills Digital Construction 竞赛工程线索",
+      "method": "candidate",
+      "url": "https://worldskills2024.com/en/skills/digital-construction/index.html",
+      "status": "competition-confirmed-native-resource-not-publicly-obtained",
+      "native_files_downloaded": false,
+      "rights": "竞赛资料中心可能需注册；公开技术要求不等于提供可下载原生获奖工程。"
+    }
+  ]
+}

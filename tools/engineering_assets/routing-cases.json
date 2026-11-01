@@ -1,0 +1,77 @@
+[
+  {
+    "software": "revit",
+    "task": "门切不开墙，宿主存在但无洞口",
+    "expected": "RV-02"
+  },
+  {
+    "software": "revit",
+    "task": "Room重复房间导致零面积",
+    "expected": "RV-02"
+  },
+  {
+    "software": "revit",
+    "task": "楼梯踏步和中平台标高",
+    "expected": "RV-02"
+  },
+  {
+    "software": "revit",
+    "task": "LevelId显示柱都在首层，地下柱是否存在",
+    "expected": "RV-03"
+  },
+  {
+    "software": "revit",
+    "task": "剖面像立面，裁剪深度有问题",
+    "expected": "RV-03"
+  },
+  {
+    "software": "revit",
+    "task": "Start前设置FailureHandling，Commit Pending",
+    "expected": "RV-04"
+  },
+  {
+    "software": "revit",
+    "task": "英尺毫米单位错了",
+    "expected": "RV-04"
+  },
+  {
+    "software": "revit",
+    "task": "系统族与原生类别怎么选",
+    "expected": "RV-01"
+  },
+  {
+    "software": "revit",
+    "task": "找一个官方窗族RFA和工程模板RTE",
+    "expected": "RV-05"
+  },
+  {
+    "software": "revit",
+    "task": "查找家具族文件和结构族库",
+    "expected": "RV-05"
+  },
+  {
+    "software": "revit",
+    "task": "Snowdon完整RVT样例适配版本",
+    "expected": "RV-05"
+  },
+  {
+    "software": "cad",
+    "task": "批量插窗户，用图块，不逐个创建重复构件",
+    "expected": "CAD-02"
+  },
+  {
+    "software": "cad",
+    "task": "布局视口1:100与打印PDF",
+    "expected": "CAD-03"
+  },
+  {
+    "software": "cad",
+    "task": "接手场地DWG，外参坐标和湖岸",
+    "expected": "CAD-01"
+  },
+  {
+    "software": "cad",
+    "task": "DXF转DWG和Core Console后台批处理",
+    "expected": "CAD-04"
+  }
+]

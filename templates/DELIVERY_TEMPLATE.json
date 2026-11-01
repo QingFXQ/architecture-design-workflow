@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "填写当前项目，不直接复制示例个人信息",
+    "current_revisions": {"design": "D01", "site": "S01", "facade": "F01"}
+  },
+  "brief": {
+    "board_count": 2,
+    "paper_mm": [594, 841],
+    "required_assets": ["P-B1", "P-1F", "P-2F", "P-3F", "P-4F", "P-TOP", "E-01", "S-01", "SITE"]
+  },
+  "print_profile": {"min_text_height_mm": 2.5, "min_raster_ppi": 180},
+  "assets": [
+    {"id":"P-B1", "kind":"plan", "title":"地下层平面图", "file":"exports/P-B1.pdf", "scale":300, "required_font_family":"FangSong", "source_revisions":{"design":"D01"}, "visual_reviewed":false},
+    {"id":"P-1F", "kind":"plan", "title":"首层平面图", "file":"exports/P-1F.pdf", "scale":300, "required_font_family":"FangSong", "source_revisions":{"design":"D01"}, "visual_reviewed":false},
+    {"id":"P-2F", "kind":"plan", "title":"二层平面图", "file":"exports/P-2F.pdf", "scale":300, "required_font_family":"FangSong", "source_revisions":{"design":"D01"}, "visual_reviewed":false},
+    {"id":"P-3F", "kind":"plan", "title":"三层平面图", "file":"exports/P-3F.pdf", "scale":300, "required_font_family":"FangSong", "source_revisions":{"design":"D01"}, "visual_reviewed":false},
+    {"id":"P-4F", "kind":"plan", "title":"四层平面图", "file":"exports/P-4F.pdf", "scale":300, "required_font_family":"FangSong", "source_revisions":{"design":"D01"}, "visual_reviewed":false},
+    {"id":"P-TOP", "kind":"plan", "title":"顶层平面图", "file":"exports/P-TOP.pdf", "scale":300, "required_font_family":"FangSong", "source_revisions":{"design":"D01"}, "visual_reviewed":false},
+    {"id":"E-01", "kind":"elevation", "title":"西立面图", "file":"exports/E-01.pdf", "scale":200, "required_font_family":"FangSong", "source_revisions":{"design":"D01","facade":"F01"}, "visual_reviewed":false},
+    {"id":"S-01", "kind":"section", "title":"1—1剖面图", "file":"exports/S-01.pdf", "scale":200, "required_font_family":"FangSong", "source_revisions":{"design":"D01","site":"S01"}, "visual_reviewed":false},
+    {"id":"SITE", "kind":"site", "title":"总平面图", "file":"exports/SITE.pdf", "scale":500, "required_font_family":"FangSong", "source_revisions":{"design":"D01","site":"S01","facade":"F01"}, "visual_reviewed":false},
+    {"id":"AX-01", "kind":"analysis", "title":"功能与流线爆炸轴测图", "file":"exports/AX-01.png", "source_revisions":{"design":"D01"}, "depends_on":["P-B1","P-1F","P-2F","P-3F","P-4F","P-TOP"], "visual_reviewed":false}
+  ],
+  "boards": [
+    {"id":"B01", "file":"final/A1-01.pdf", "width_mm":594, "height_mm":841, "placements":[], "visual_review":{"overview":false,"details":false}},
+    {"id":"B02", "file":"final/A1-02.pdf", "width_mm":594, "height_mm":841, "placements":[], "visual_review":{"overview":false,"details":false}}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sketchup": {
+      "command": "node",
+      "args": ["REPLACE_WITH_REPO_ABSOLUTE_PATH/tools/sketchup-mcp/scripts/start.mjs"],
+      "env": {
+        "SKETCHUP_MCP_PORT": "19876",
+        "SKETCHUP_MCP_TIMEOUT": "120"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+name: Validate workflow
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Entry points and relative links
+        run: python tools/validate_public.py
+      - name: Engineering and presentation catalogs
+        run: |
+          python tools/engineering_assets/find_asset.py --check --self-test
+          python tools/presentation_cases/find_case.py --check
+      - name: Build and search the offline case index
+        run: |
+          python knowledge/architecture-case-rag/scripts/build_index.py
+          python knowledge/architecture-case-rag/scripts/search_cases.py --mode lexical --query "图书馆夜间独立开放" --max 3
+      - name: Retrieval and connection contracts without live apps
+        run: |
+          python -m unittest discover -s knowledge/architecture-case-rag/scripts -p test_working_retrieval.py -v
+          python -m unittest discover -s tools/revit-mcp/scripts -p test_smoke_revit_mcp.py -v
+      - name: Python syntax
+        run: python -m compileall -q tools knowledge/architecture-case-rag/scripts knowledge/engineering-assets/examples

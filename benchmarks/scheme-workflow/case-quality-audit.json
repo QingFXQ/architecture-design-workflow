@@ -1,0 +1,356 @@
+{
+  "four_star_or_higher": 55,
+  "issues": [
+    {
+      "id": "alila-yangshuo",
+      "quality": "★★★★",
+      "path": "cases/alila-yangshuo.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "china-design-museum",
+      "quality": "★★★★",
+      "path": "cases/china-design-museum.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "community-quzhou-sports-campus",
+      "quality": "★★★★",
+      "path": "cases/community-quzhou-sports-campus.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "hotel-zhoushan-summer",
+      "quality": "★★★★",
+      "path": "cases/hotel-zhoushan-summer.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "industrial-sallares-deu",
+      "quality": "★★★★",
+      "path": "cases/industrial-sallares-deu.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "jishou-art-museum",
+      "quality": "★★★★",
+      "path": "cases/jishou-art-museum.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "learning-rolex-learning-center",
+      "quality": "★★★★",
+      "path": "cases/learning-rolex-learning-center.md",
+      "missing": [
+        "section"
+      ],
+      "image_kinds": [
+        "floor-plan",
+        "photo"
+      ]
+    },
+    {
+      "id": "library-scut-e3",
+      "quality": "★★★★",
+      "path": "cases/library-scut-e3.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "library-seattle-central",
+      "quality": "★★★★",
+      "path": "cases/library-seattle-central.md",
+      "missing": [
+        "section"
+      ],
+      "image_kinds": [
+        "analysis",
+        "floor-plan",
+        "photo"
+      ]
+    },
+    {
+      "id": "long-museum-west-bund",
+      "quality": "★★★★",
+      "path": "cases/long-museum-west-bund.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "medical-baix-ebre-clinic",
+      "quality": "★★★★",
+      "path": "cases/medical-baix-ebre-clinic.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "museum-dahecun-site",
+      "quality": "★★★★",
+      "path": "cases/museum-dahecun-site.md",
+      "missing": [
+        "section"
+      ],
+      "image_kinds": [
+        "analysis_ecology",
+        "analysis_massing",
+        "detail_retaining_wall",
+        "detail_roof_drainage",
+        "photo",
+        "plan_ground",
+        "plan_roof",
+        "plan_second",
+        "section_1_1",
+        "section_2_2"
+      ]
+    },
+    {
+      "id": "museum-daxinzhuang-site",
+      "quality": "★★★★",
+      "path": "cases/museum-daxinzhuang-site.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "museum-gc-prostho",
+      "quality": "★★★★",
+      "path": "cases/museum-gc-prostho.md",
+      "missing": [
+        "section"
+      ],
+      "image_kinds": [
+        "elevation",
+        "floor-plan",
+        "photo"
+      ]
+    },
+    {
+      "id": "museum-porcelain-source",
+      "quality": "★★★★",
+      "path": "cases/museum-porcelain-source.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "museum-qinling",
+      "quality": "★★★★",
+      "path": "cases/museum-qinling.md",
+      "missing": [
+        "section"
+      ],
+      "image_kinds": [
+        "analysis",
+        "photo",
+        "plan_0_000",
+        "plan_13_500",
+        "plan_21_000",
+        "plan_28_000",
+        "plan_35_000",
+        "plan_42_500",
+        "plan_b1",
+        "section_elevation",
+        "site_plan"
+      ]
+    },
+    {
+      "id": "performing-arts-north-shore-auditorium",
+      "quality": "★★★★",
+      "path": "cases/performing-arts-north-shore-auditorium.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "pingshan-performing-arts-center",
+      "quality": "★★★★",
+      "path": "cases/pingshan-performing-arts-center.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "power-station-of-art",
+      "quality": "★★★★",
+      "path": "cases/power-station-of-art.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "retail-huawei-wangfujing",
+      "quality": "★★★★",
+      "path": "cases/retail-huawei-wangfujing.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "school-ningbo-tongdizhou",
+      "quality": "★★★★",
+      "path": "cases/school-ningbo-tongdizhou.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "school-sammontalo",
+      "quality": "★★★★",
+      "path": "cases/school-sammontalo.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "school-union-vida",
+      "quality": "★★★★",
+      "path": "cases/school-union-vida.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "school-zhonggongmiao-baofeng",
+      "quality": "★★★★",
+      "path": "cases/school-zhonggongmiao-baofeng.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "sports-dongxihu-center",
+      "quality": "★★★★",
+      "path": "cases/sports-dongxihu-center.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": []
+    },
+    {
+      "id": "tank-shanghai",
+      "quality": "★★★★",
+      "path": "cases/tank-shanghai.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "tianjin-binhai-library",
+      "quality": "★★★★",
+      "path": "cases/tianjin-binhai-library.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "wellness-therme-vals",
+      "quality": "★★★★",
+      "path": "cases/wellness-therme-vals.md",
+      "missing": [
+        "section"
+      ],
+      "image_kinds": [
+        "floor-plan",
+        "photo"
+      ]
+    },
+    {
+      "id": "west-village-basis-yard",
+      "quality": "★★★★",
+      "path": "cases/west-village-basis-yard.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    },
+    {
+      "id": "xiadi-paddy-field-bookstore",
+      "quality": "★★★★",
+      "path": "cases/xiadi-paddy-field-bookstore.md",
+      "missing": [
+        "plan",
+        "section"
+      ],
+      "image_kinds": [
+        "photo"
+      ]
+    }
+  ]
+}

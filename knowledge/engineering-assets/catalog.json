@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-30",
+  "entries": [
+    {
+      "id": "RV-01",
+      "software": "revit",
+      "kind": "recipe",
+      "title": "基准与原生工程",
+      "card": "cards/RV-01-native-project.md",
+      "keywords": [
+        "工程",
+        "新建项目",
+        "原生",
+        "系统族",
+        "类别",
+        "轴网",
+        "标高",
+        "层高",
+        "墙板",
+        "构件方法"
+      ],
+      "sources": [
+        "skills/revit-expert/SKILL.md",
+        "research/revit-materials/01-native-components.md"
+      ],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    },
+    {
+      "id": "RV-02",
+      "software": "revit",
+      "kind": "recipe",
+      "title": "门窗宿主、楼梯与房间",
+      "card": "cards/RV-02-host-stair-room.md",
+      "keywords": [
+        "门切不开墙",
+        "切不开",
+        "宿主",
+        "门窗",
+        "楼梯",
+        "梯段",
+        "踏步",
+        "平台",
+        "净高",
+        "房间重复",
+        "重复房间",
+        "Room",
+        "零面积",
+        "开洞"
+      ],
+      "sources": [
+        "research/revit-materials/10-pitfalls.md",
+        "skills/revit-expert/references/revit-mcp-patterns.md"
+      ],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    },
+    {
+      "id": "RV-03",
+      "software": "revit",
+      "kind": "recipe",
+      "title": "跨层与剖切出图",
+      "card": "cards/RV-03-view-export.md",
+      "keywords": [
+        "LevelId",
+        "柱子不见",
+        "地下柱",
+        "跨层",
+        "原生Stairs",
+        "柱投影",
+        "剖面像立面",
+        "剖柱",
+        "截断",
+        "裁剪",
+        "平剖",
+        "立面",
+        "视图",
+        "线宽",
+        "涂黑",
+        "图面",
+        "导出缺件",
+        "剖面",
+        "几何",
+        "地下不显示",
+        "黑横线",
+        "仿宋",
+        "标高符号"
+      ],
+      "sources": [
+        "research/revit-materials/04-view-templates.md",
+        "research/revit-materials/06-sheets.md",
+        "skills/revit-expert/references/fbx-export-render.md",
+        "skills/revit-model-hardening/references/graphic-hierarchy-revit.md",
+        "workflows/DRAWING_PRODUCTION_WORKFLOW.md",
+        "knowledge/practice-feedback/library-20261029.md"
+      ],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    },
+    {
+      "id": "RV-04",
+      "software": "revit",
+      "kind": "recipe",
+      "title": "单位事务与运行恢复",
+      "card": "cards/RV-04-runtime.md",
+      "keywords": [
+        "Pending",
+        "Committed",
+        "事务",
+        "毫米",
+        "英尺",
+        "超时",
+        "模态",
+        "端口",
+        "FailureHandling",
+        "米制",
+        "单位",
+        "Start",
+        "GetWarnings"
+      ],
+      "sources": [
+        "skills/revit-model-hardening/references/revit-api-field-notes.md"
+      ],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    },
+    {
+      "id": "RV-05",
+      "software": "revit",
+      "kind": "native-library",
+      "title": "真实工程样板、族文件与原生项目库",
+      "card": "cards/RV-05-native-library.md",
+      "keywords": ["族文件", "族库", "找族", "门族", "窗族", "家具族", "结构族", "工程模板", "项目样板", "族样板", "RFA", "RFT", "RTE", "RVT样例", "Snowdon", "官方资源"],
+      "sources": ["knowledge/engineering-assets/revit-library/README.md", "knowledge/engineering-assets/revit-library/sources.json", "tools/revit_assets/library.py"],
+      "verification": {
+        "state": "native-container-verified",
+        "scope": "2744原生文件容器、版本、哈希与可提取元数据已核；8项离线集成测试通过，尚未逐件宿主载入",
+        "host_verified": false,
+        "evidence": ["knowledge/engineering-assets/revit-library/verification.json"]
+      }
+    },
+    {
+      "id": "CAD-01",
+      "software": "cad",
+      "kind": "recipe",
+      "title": "接手CAD与场地校准",
+      "card": "cards/CAD-01-intake.md",
+      "keywords": [
+        "场地",
+        "接手",
+        "外参",
+        "坐标",
+        "单位",
+        "字体丢失",
+        "基点",
+        "红线",
+        "湖岸",
+        "原点",
+        "DWG读取",
+        "DWG打开",
+        "缩放"
+      ],
+      "sources": [],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    },
+    {
+      "id": "CAD-02",
+      "software": "cad",
+      "kind": "recipe",
+      "title": "参数化墙线与共享窗块",
+      "card": "cards/CAD-02-parametric.md",
+      "keywords": [
+        "窗户",
+        "插窗",
+        "图块",
+        "20个",
+        "批量窗",
+        "重复构件",
+        "门窗断口",
+        "标注",
+        "尺寸",
+        "DXF生成",
+        "参数化",
+        "ezdxf",
+        "墙体"
+      ],
+      "sources": [
+        "knowledge/engineering-assets/examples/cad-parametric/generate.py",
+        "knowledge/engineering-assets/examples/cad-parametric/params.json"
+      ],
+      "verification": {
+        "state": "offline-tested",
+        "scope": "仅配套DXF小样生成／读回／离线PDF及重跑测试，AutoCAD宿主未测",
+        "host_verified": false,
+        "evidence": [
+          "knowledge/engineering-assets/examples/cad-parametric/VERIFICATION.json"
+        ]
+      }
+    },
+    {
+      "id": "CAD-03",
+      "software": "cad",
+      "kind": "recipe",
+      "title": "布局视口与打印发布",
+      "card": "cards/CAD-03-layout-plot.md",
+      "keywords": [
+        "布局",
+        "视口",
+        "1:100",
+        "打印",
+        "出图",
+        "PDF",
+        "CTB",
+        "STB",
+        "注释比例",
+        "线宽",
+        "图框",
+        "Fit to Paper"
+      ],
+      "sources": [
+        "skills/cad-production/references/architectural-drawing-lessons.md",
+        "workflows/PRESENTATION_WORKFLOW.md"
+      ],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    },
+    {
+      "id": "CAD-04",
+      "software": "cad",
+      "kind": "recipe",
+      "title": "批处理与文件交换",
+      "card": "cards/CAD-04-batch-exchange.md",
+      "keywords": [
+        "批处理",
+        "重复执行",
+        "幂等",
+        "重跑",
+        "SCR",
+        "AutoLISP",
+        "COM",
+        "Core Console",
+        "转换",
+        "DXF转DWG",
+        "后台",
+        "批量"
+      ],
+      "sources": [
+        "prompts/AUTOCAD_MCP_DEPLOYMENT.md"
+      ],
+      "verification": {
+        "state": "reference-reviewed",
+        "scope": "方法与来源已核；不是当前宿主实测",
+        "host_verified": false
+      }
+    }
+  ]
+}

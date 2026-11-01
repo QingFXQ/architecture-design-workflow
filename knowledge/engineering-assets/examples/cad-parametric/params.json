@@ -1,0 +1,10 @@
+{
+  "units": "mm",
+  "width": 12000,
+  "depth": 8000,
+  "wall": 200,
+  "column": 400,
+  "window_width": 600,
+  "door_width": 1200,
+  "preview_scale": 100
+}

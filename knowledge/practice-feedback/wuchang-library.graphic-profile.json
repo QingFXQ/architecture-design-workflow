@@ -1,0 +1,63 @@
+{
+  "profile": "wuchang-library-coursework",
+  "source": "user feedback in this conversation, 2026-10-25 to 2026-10-29",
+  "scope": "Project preset; not a universal code requirement; do not copy student identity to another project.",
+  "boards": {
+    "count": 2,
+    "width_mm": 594,
+    "height_mm": 841,
+    "orientation": "portrait",
+    "scale_adjustment": "allowed if labeled truthfully"
+  },
+  "drawing_text": {
+    "family": "FangSong / 仿宋",
+    "applies_to": [
+      "drawing annotations",
+      "drawing titles"
+    ],
+    "board_heading_can_differ": true,
+    "minimum_final_print_height_mm": 2.5
+  },
+  "titles": {
+    "format": "xxx图  1:n",
+    "plan_names": [
+      "地下层平面图",
+      "首层平面图",
+      "二层平面图",
+      "三层平面图",
+      "四层平面图",
+      "顶层平面图"
+    ],
+    "underline": {
+      "upper": "thin",
+      "lower": "thick"
+    },
+    "bare_level_numbers_near_title": false
+  },
+  "graphics": {
+    "cut_load_bearing": "solid black",
+    "non_load_bearing_walls_glass_doors_windows": "not solid black",
+    "projection": "lighter than cut",
+    "horizontal_dimensions": "below drawing",
+    "elevation_markers": "standard elevation symbol"
+  },
+  "style": {
+    "reference_first": true,
+    "palette": "derive from actual references, not warm-gray only",
+    "vegetation": "optional generated or licensed assets, never dense procedural filler",
+    "furniture": "real reusable components, orderly; no extreme packing"
+  },
+  "analysis": {
+    "priority": [
+      "exploded functional and circulation axon",
+      "site and activity continuity"
+    ],
+    "optional": [
+      "massing and facade evolution"
+    ],
+    "cancelled": [
+      "solar heat map"
+    ]
+  },
+  "metrics": "use target/approximation/measured labels as applicable; never present invented exact data as measured"
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-29",
+  "entries": [
+    {
+      "id": "PC-01",
+      "title": "Maker + Market：主透视统领的学生展板",
+      "author": "Morgan Davis and Logan Dolezal",
+      "source": "https://architecture.unl.edu/sites/unl.edu.architecture/files/media/file/2021_SGH.pdf#page=17",
+      "kind": "student-board",
+      "format": "竖向板面，收录于方形出版页面；原纸幅未给出",
+      "tags": [
+        "竖版",
+        "主图",
+        "透视",
+        "背景融合",
+        "学生作业",
+        "非等大拼图"
+      ],
+      "visual_review": "PDF第17页；2026-10-29实际渲染查看",
+      "lesson": "主透视占据中部，天空承载少量分析，局部内景与下方图解形成次级阅读。",
+      "limits": "不复制小字密度、页内裁切和作品内容；原版未标A1，不当成现成打印模板。",
+      "card": "cards/PC-01.md",
+      "license": "版权归原作者；仅保存来源和自写方法笔记，不提供可重分发原图或PSD。"
+    },
+    {
+      "id": "PC-02",
+      "title": "Canopy：多层平面与剖面的比较页",
+      "author": "Sebastian Toalson and Ethan Weiche",
+      "source": "https://architecture.unl.edu/sites/unl.edu.architecture/files/media/file/2021_SGH.pdf#page=34",
+      "kind": "student-board",
+      "format": "竖向图纸页，出版页面方形；原纸幅未给出",
+      "tags": [
+        "竖版",
+        "多层平面",
+        "剖面",
+        "绿色",
+        "图纸比较",
+        "学生作业"
+      ],
+      "visual_review": "PDF第34页；2026-10-29实际渲染查看",
+      "lesson": "同尺度楼层组成比较组，底部两剖面解释公共空间；少量绿黄功能色关联图件。",
+      "limits": "规则阵列适合比较图纸，不作为效果主板的默认构图；不能照搬细字与图内比例。",
+      "card": "cards/PC-02.md",
+      "license": "版权归原作者；仅保存来源和自写方法笔记，不提供可重分发原图或PSD。"
+    },
+    {
+      "id": "PC-03",
+      "title": "Yankee Hill Branch Library：内景与剖面的空间叙事",
+      "author": "Bailey Gocke, Dhanush Reddy, and Samantha Zeek",
+      "source": "https://architecture.unl.edu/sites/unl.edu.architecture/files/media/file/2021_SGH.pdf#page=43",
+      "kind": "student-board",
+      "format": "竖向板面，收录于方形出版页面；原纸幅未给出",
+      "tags": [
+        "竖版",
+        "图书馆",
+        "内景",
+        "剖面",
+        "主次",
+        "深色背景",
+        "学生作业"
+      ],
+      "visual_review": "PDF第43页；2026-10-29实际渲染查看",
+      "lesson": "上部内景与下部剖面形成一组空间论证，背景串联两图，避免等权重拼贴。",
+      "limits": "深色背景不是用户默认风格；剖切黑填与中文图名仍按本项目要求。",
+      "card": "cards/PC-03.md",
+      "license": "版权归原作者；仅保存来源和自写方法笔记，不提供可重分发原图或PSD。"
+    },
+    {
+      "id": "PC-04",
+      "title": "Mountain Lodge：场地跨页与色彩组织",
+      "author": "Alex Hogrefe / Visualizing Architecture",
+      "source": "https://visualizingarchitecture.com/mountain-lodge-spreads/",
+      "preview_url": "https://visualizingarchitecture.com/wp-content/uploads/2018/10/Vol05_ML_02_Siteplan.jpg",
+      "kind": "author-tutorial",
+      "format": "横向作品集跨页，非学生A1模板",
+      "tags": [
+        "场地",
+        "色彩",
+        "跨页",
+        "非暖灰",
+        "留白",
+        "景观"
+      ],
+      "visual_review": "作者Siteplan跨页原图；2026-10-29实际查看",
+      "lesson": "连续地形线组织大画面，红橙底色与青绿体块明确主次，色彩可服务叙事。",
+      "limits": "此图是场地图，不是完整课程板；不可照抄饱和度、折页阴影或推定实际尺度。",
+      "card": "cards/PC-04.md",
+      "license": "版权归原作者；仅保存来源和自写方法笔记，不提供可重分发原图或PSD。"
+    },
+    {
+      "id": "PC-05",
+      "title": "Desert House：大标题与斜向主图",
+      "author": "Alex Hogrefe / Visualizing Architecture",
+      "source": "https://visualizingarchitecture.com/desert-house-spreads/",
+      "preview_url": "https://visualizingarchitecture.com/wp-content/uploads/2018/05/Desert_Port_05_Spread_01.jpg",
+      "kind": "author-tutorial",
+      "format": "横向作品集跨页，非学生A1模板",
+      "tags": [
+        "主图",
+        "大标题",
+        "色彩",
+        "非等大拼图",
+        "非暖灰",
+        "跨页"
+      ],
+      "visual_review": "作者Spread 01原图；2026-10-29实际查看",
+      "lesson": "标题与正文有强字级，斜向构件跨越背景分区，形成单一视觉动作。",
+      "limits": "不是要求本项目用高饱和洋红／橙色；跨页装帧、占位拉丁文不能当最终板内容。",
+      "card": "cards/PC-05.md",
+      "license": "版权归原作者；仅保存来源和自写方法笔记，不提供可重分发原图或PSD。"
+    },
+    {
+      "id": "PC-06",
+      "title": "Cliff Retreat：场地大剖面与空间小剖面",
+      "author": "Alex Hogrefe / Visualizing Architecture",
+      "source": "https://visualizingarchitecture.com/cliff-retreat-section-spread/",
+      "preview_url": "https://visualizingarchitecture.com/wp-content/uploads/2016/01/cliff_retreat_Sections_11_Final_alexhogrefe.jpg",
+      "kind": "author-tutorial",
+      "format": "横向剖面研究跨页，非学生A1模板",
+      "tags": [
+        "剖面",
+        "高差",
+        "场地",
+        "主次",
+        "图底",
+        "跨页"
+      ],
+      "visual_review": "作者Final原图；2026-10-29实际查看",
+      "lesson": "一张场地大剖面定尺度，多个空间剖面与其关联；背景和连线解释信息层级。",
+      "limits": "借用关系而非粗糙纹理、红色剖切或标高尺；本项目仍用自己的标准标高符号。",
+      "card": "cards/PC-06.md",
+      "license": "版权归原作者；仅保存来源和自写方法笔记，不提供可重分发原图或PSD。"
+    }
+  ]
+}

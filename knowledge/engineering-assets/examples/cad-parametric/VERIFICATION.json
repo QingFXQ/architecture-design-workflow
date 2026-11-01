@@ -1,0 +1,67 @@
+{
+  "state": "offline-tested",
+  "units": "mm",
+  "window_instances": 20,
+  "window_definitions": 1,
+  "column_cuts": 12,
+  "dimensions_mm": [
+    8000.0,
+    12000.0
+  ],
+  "wall_openings_clear": true,
+  "audit_errors": 0,
+  "audit_fixes": 0,
+  "entity_counts": {
+    "ARC": 1,
+    "CIRCLE": 7,
+    "DIMENSION": 2,
+    "INSERT": 20,
+    "LINE": 8,
+    "LWPOLYLINE": 37,
+    "SOLID": 12,
+    "TEXT": 9
+  },
+  "host_verified": false,
+  "dwg_verified": false,
+  "parameters": {
+    "units": "mm",
+    "width": 12000,
+    "depth": 8000,
+    "wall": 200,
+    "column": 400,
+    "window_width": 600,
+    "door_width": 1200,
+    "preview_scale": 100
+  },
+  "files": {
+    "sample.dxf": {
+      "bytes": 66107,
+      "sha256": "7f8d425985caaa5d689205c63d8cf64c43788a49b4f996e8338f8ccf5f45415d"
+    },
+    "windows.csv": {
+      "bytes": 1063,
+      "sha256": "104d51aff2d7a1933acdb7f9758fea7063952a6636abfbdcc2c81f47f58174da"
+    },
+    "sample.pdf": {
+      "bytes": 45481,
+      "sha256": "dd54158303653f0b9b1a2f75763fb290e004971c523888bc2cc375cbf8f06d73"
+    },
+    "sample.png": {
+      "bytes": 34168,
+      "sha256": "6945a8890c75f9d506da011c50502e8aac5dc53844dd81adf9e835bd067f7809"
+    }
+  },
+  "checked_on": "2026-10-28",
+  "tests": {
+    "actual_dxf_readback": true,
+    "repeat_generation_no_entity_growth": true,
+    "parameter_change_updates_geometry": true,
+    "shared_window_definition": true,
+    "wall_openings_clear": true,
+    "dimension_text_matches_measurement": true,
+    "unowned_output_preserved": true,
+    "ambiguous_units_rejected": true
+  },
+  "script_sha256": "33200214dfa4c22bf881ad7a01e6aaa6f4b9ead3972bf94bb2c0cdf7d0845502",
+  "scope": "Offline DXF generation/readback and PDF rendering only; no AutoCAD install or session"
+}

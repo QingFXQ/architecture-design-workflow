@@ -1,0 +1,706 @@
+{
+  "generated_on": "2026-10-30",
+  "counts": {
+    "family": 2583,
+    "project_template": 16,
+    "family_template": 125,
+    "project": 20
+  },
+  "files": 2744,
+  "bytes": 2216054784,
+  "years": [
+    {
+      "revit_year": 2021,
+      "files": 2737
+    },
+    {
+      "revit_year": 2024,
+      "files": 7
+    }
+  ],
+  "family_types": 7294,
+  "previews": 2744,
+  "errors": [],
+  "type_catalogs_and_auxiliary": 272,
+  "reference_pdfs": 4,
+  "host_verified": false,
+  "host_note": "Offline OLE/BasicFileInfo/PartAtom checks only; no project opened or changed in Revit.",
+  "unique_native_hashes": 2744,
+  "preview_png_validation": {
+    "unique_previews": 2744,
+    "errors": []
+  },
+  "integration_tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": "python -m unittest discover -s tools/revit_assets -p test_*.py -v"
+  },
+  "visual_review": {
+    "family_contact_sheet": "previews/族文件预览抽查.jpg",
+    "project_contact_sheet": "previews/原生工程预览抽查.jpg",
+    "competition_contact_sheet": "previews/CIC2024获奖海报检查.jpg",
+    "reviewed": true,
+    "scope": "Representative embedded previews and first-page previews of 3 competition posters, not host-generated drawing validation."
+  },
+  "category_counts": [
+    {
+      "category": "Detail Items",
+      "files": 365
+    },
+    {
+      "category": "Mechanical Equipment",
+      "files": 236
+    },
+    {
+      "category": "Pipe Fittings",
+      "files": 186
+    },
+    {
+      "category": "Duct Fittings",
+      "files": 168
+    },
+    {
+      "category": "Structural Framing",
+      "files": 106
+    },
+    {
+      "category": "Lighting Fixtures",
+      "files": 90
+    },
+    {
+      "category": "Generic Models",
+      "files": 83
+    },
+    {
+      "category": "Pipe Accessories",
+      "files": 74
+    },
+    {
+      "category": "Structural Columns",
+      "files": 70
+    },
+    {
+      "category": "Profiles",
+      "files": 64
+    },
+    {
+      "category": "Plumbing Fixtures",
+      "files": 64
+    },
+    {
+      "category": "Conduit Fittings",
+      "files": 64
+    },
+    {
+      "category": "Air Terminals",
+      "files": 57
+    },
+    {
+      "category": "Doors",
+      "files": 54
+    },
+    {
+      "category": "Specialty Equipment",
+      "files": 45
+    },
+    {
+      "category": "Generic Annotations",
+      "files": 43
+    },
+    {
+      "category": "Furniture",
+      "files": 41
+    },
+    {
+      "category": "Electrical Equipment",
+      "files": 41
+    },
+    {
+      "category": "Windows",
+      "files": 40
+    },
+    {
+      "category": "Rebar Shape",
+      "files": 40
+    },
+    {
+      "category": "Site",
+      "files": 39
+    },
+    {
+      "category": "Casework",
+      "files": 34
+    },
+    {
+      "category": "Structural Connections",
+      "files": 31
+    },
+    {
+      "category": "Fire Alarm Devices",
+      "files": 30
+    },
+    {
+      "category": "Electrical Fixtures",
+      "files": 28
+    },
+    {
+      "category": "Structural Foundations",
+      "files": 26
+    },
+    {
+      "category": "Furniture Systems",
+      "files": 24
+    },
+    {
+      "category": "Curtain Panels",
+      "files": 22
+    },
+    {
+      "category": "Lighting Devices",
+      "files": 19
+    },
+    {
+      "category": "Sprinklers",
+      "files": 17
+    },
+    {
+      "category": "Structural Trusses",
+      "files": 16
+    },
+    {
+      "category": "Duct Accessories",
+      "files": 16
+    },
+    {
+      "category": "Mass",
+      "files": 15
+    },
+    {
+      "category": "Connection Symbols",
+      "files": 15
+    },
+    {
+      "category": "Balusters",
+      "files": 15
+    },
+    {
+      "category": "Cable Tray Fittings",
+      "files": 14
+    },
+    {
+      "category": "Communication Devices",
+      "files": 13
+    },
+    {
+      "category": "Title Blocks",
+      "files": 12
+    },
+    {
+      "category": "Section Marks",
+      "files": 11
+    },
+    {
+      "category": "常规模型",
+      "files": 10
+    },
+    {
+      "category": "Structural Framing Tags",
+      "files": 7
+    },
+    {
+      "category": "Division Profiles",
+      "files": 7
+    },
+    {
+      "category": "图框",
+      "files": 6
+    },
+    {
+      "category": "Spot Elevation Symbols",
+      "files": 6
+    },
+    {
+      "category": "Planting",
+      "files": 6
+    },
+    {
+      "category": "Nurse Call Devices",
+      "files": 6
+    },
+    {
+      "category": "MEP Fabrication Pipework Tags",
+      "files": 6
+    },
+    {
+      "category": "MEP Fabrication Ductwork Tags",
+      "files": 6
+    },
+    {
+      "category": "Duct Tags",
+      "files": 6
+    },
+    {
+      "category": "Assembly Tags",
+      "files": 6
+    },
+    {
+      "category": "结构连接",
+      "files": 5
+    },
+    {
+      "category": "View Titles",
+      "files": 5
+    },
+    {
+      "category": "Telephone Devices",
+      "files": 5
+    },
+    {
+      "category": "Security Devices",
+      "files": 5
+    },
+    {
+      "category": "Columns",
+      "files": 5
+    },
+    {
+      "category": "Wire Tick Marks",
+      "files": 4
+    },
+    {
+      "category": "Structural Rebar Couplers",
+      "files": 4
+    },
+    {
+      "category": "Structural Fabric Reinforcement Symbols",
+      "files": 4
+    },
+    {
+      "category": "Structural Area Reinforcement Symbols",
+      "files": 4
+    },
+    {
+      "category": "Pipe Tags",
+      "files": 4
+    },
+    {
+      "category": "Level Heads",
+      "files": 4
+    },
+    {
+      "category": "Grid Heads",
+      "files": 4
+    },
+    {
+      "category": "Elevation Marks",
+      "files": 4
+    },
+    {
+      "category": "Boundary Conditions",
+      "files": 4
+    },
+    {
+      "category": "常规注释",
+      "files": 3
+    },
+    {
+      "category": "Window Tags",
+      "files": 3
+    },
+    {
+      "category": "Structural Rebar Tags",
+      "files": 3
+    },
+    {
+      "category": "Multi-Category Tags",
+      "files": 3
+    },
+    {
+      "category": "Electrical Fixture Tags",
+      "files": 3
+    },
+    {
+      "category": "Electrical Equipment Tags",
+      "files": 3
+    },
+    {
+      "category": "Data Devices",
+      "files": 3
+    },
+    {
+      "category": "Conduit Tags",
+      "files": 3
+    },
+    {
+      "category": "Cable Tray Tags",
+      "files": 3
+    },
+    {
+      "category": "Brace in Plan View Symbols",
+      "files": 3
+    },
+    {
+      "category": "分割轮廓",
+      "files": 2
+    },
+    {
+      "category": "Wire Tags",
+      "files": 2
+    },
+    {
+      "category": "Structural Foundation Tags",
+      "files": 2
+    },
+    {
+      "category": "Structural Column Tags",
+      "files": 2
+    },
+    {
+      "category": "Structural Area Reinforcement Tags",
+      "files": 2
+    },
+    {
+      "category": "Span Direction Symbol",
+      "files": 2
+    },
+    {
+      "category": "Space Tags",
+      "files": 2
+    },
+    {
+      "category": "Room Tags",
+      "files": 2
+    },
+    {
+      "category": "Pipe Fitting Tags",
+      "files": 2
+    },
+    {
+      "category": "Lighting Fixture Tags",
+      "files": 2
+    },
+    {
+      "category": "Floor Tags",
+      "files": 2
+    },
+    {
+      "category": "Flex Duct Tags",
+      "files": 2
+    },
+    {
+      "category": "Duct Fitting Tags",
+      "files": 2
+    },
+    {
+      "category": "Ceiling Tags",
+      "files": 2
+    },
+    {
+      "category": "Callout Heads",
+      "files": 2
+    },
+    {
+      "category": "钢筋形状",
+      "files": 1
+    },
+    {
+      "category": "Zone Tags",
+      "files": 1
+    },
+    {
+      "category": "Weld Tags",
+      "files": 1
+    },
+    {
+      "category": "Wall Tags",
+      "files": 1
+    },
+    {
+      "category": "View Reference",
+      "files": 1
+    },
+    {
+      "category": "Terminations",
+      "files": 1
+    },
+    {
+      "category": "Telephone Device Tags",
+      "files": 1
+    },
+    {
+      "category": "Supports",
+      "files": 1
+    },
+    {
+      "category": "Structural Truss Tags",
+      "files": 1
+    },
+    {
+      "category": "Structural Rebar Coupler Tags",
+      "files": 1
+    },
+    {
+      "category": "Structural Path Reinforcement Tags",
+      "files": 1
+    },
+    {
+      "category": "Structural Path Reinforcement Symbols",
+      "files": 1
+    },
+    {
+      "category": "Structural Fabric Reinforcement Tags",
+      "files": 1
+    },
+    {
+      "category": "Structural Beam System Tags",
+      "files": 1
+    },
+    {
+      "category": "Stair Tags",
+      "files": 1
+    },
+    {
+      "category": "Stair Support Tags",
+      "files": 1
+    },
+    {
+      "category": "Stair Run Tags",
+      "files": 1
+    },
+    {
+      "category": "Stair Landing Tags",
+      "files": 1
+    },
+    {
+      "category": "Sprinkler Tags",
+      "files": 1
+    },
+    {
+      "category": "Specialty Equipment Tags",
+      "files": 1
+    },
+    {
+      "category": "Shear Stud Tags",
+      "files": 1
+    },
+    {
+      "category": "Security Device Tags",
+      "files": 1
+    },
+    {
+      "category": "Revision Cloud Tags",
+      "files": 1
+    },
+    {
+      "category": "Railing Tags",
+      "files": 1
+    },
+    {
+      "category": "Point Load Tags",
+      "files": 1
+    },
+    {
+      "category": "Plumbing Fixture Tags",
+      "files": 1
+    },
+    {
+      "category": "Plate Tags",
+      "files": 1
+    },
+    {
+      "category": "Planting Tags",
+      "files": 1
+    },
+    {
+      "category": "Path of Travel Tags",
+      "files": 1
+    },
+    {
+      "category": "Part Tags",
+      "files": 1
+    },
+    {
+      "category": "Parking Tags",
+      "files": 1
+    },
+    {
+      "category": "Parking",
+      "files": 1
+    },
+    {
+      "category": "Mechanical Equipment Tags",
+      "files": 1
+    },
+    {
+      "category": "Mechanical Equipment Set Tags",
+      "files": 1
+    },
+    {
+      "category": "Material Tags",
+      "files": 1
+    },
+    {
+      "category": "Mass Tags",
+      "files": 1
+    },
+    {
+      "category": "Mass Floor Tags",
+      "files": 1
+    },
+    {
+      "category": "Line Load Tags",
+      "files": 1
+    },
+    {
+      "category": "Lighting Device Tags",
+      "files": 1
+    },
+    {
+      "category": "Keynote Tags",
+      "files": 1
+    },
+    {
+      "category": "Internal Point Load Tags",
+      "files": 1
+    },
+    {
+      "category": "Internal Line Load Tags",
+      "files": 1
+    },
+    {
+      "category": "Internal Area Load Tags",
+      "files": 1
+    },
+    {
+      "category": "Hole Tags",
+      "files": 1
+    },
+    {
+      "category": "Generic Model Tags",
+      "files": 1
+    },
+    {
+      "category": "Furniture Tags",
+      "files": 1
+    },
+    {
+      "category": "Furniture System Tags",
+      "files": 1
+    },
+    {
+      "category": "Flex Pipe Tags",
+      "files": 1
+    },
+    {
+      "category": "Fire Alarm Device Tags",
+      "files": 1
+    },
+    {
+      "category": "Door Tags",
+      "files": 1
+    },
+    {
+      "category": "Detail Item Tags",
+      "files": 1
+    },
+    {
+      "category": "Data Device Tags",
+      "files": 1
+    },
+    {
+      "category": "Curtain Panel Tags",
+      "files": 1
+    },
+    {
+      "category": "Conduit Fitting Tags",
+      "files": 1
+    },
+    {
+      "category": "Communication Device Tags",
+      "files": 1
+    },
+    {
+      "category": "Casework Tags",
+      "files": 1
+    },
+    {
+      "category": "Cable Tray Fitting Tags",
+      "files": 1
+    },
+    {
+      "category": "Bolt Tags",
+      "files": 1
+    },
+    {
+      "category": "Area Tags",
+      "files": 1
+    },
+    {
+      "category": "Area Load Tags",
+      "files": 1
+    },
+    {
+      "category": "Anchor Tags",
+      "files": 1
+    },
+    {
+      "category": "Air Terminal Tags",
+      "files": 1
+    }
+  ],
+  "references": [
+    {
+      "pages": 5,
+      "bytes": 937156
+    },
+    {
+      "pages": 4,
+      "bytes": 31245988
+    },
+    {
+      "pages": 4,
+      "bytes": 2847422
+    },
+    {
+      "pages": 4,
+      "bytes": 3503001
+    }
+  ],
+  "browser_functional_checks": [
+    {
+      "name": "default compatible total",
+      "pass": true
+    },
+    {
+      "name": "first page renders 60 cards",
+      "pass": true
+    },
+    {
+      "name": "Chinese family search renders previews",
+      "pass": true
+    },
+    {
+      "name": "2021 filters newer models",
+      "pass": true
+    },
+    {
+      "name": "2024 displays seven coordinated models",
+      "pass": true
+    }
+  ],
+  "engineering_routing_tests": {
+    "passed": 15,
+    "failed": 0,
+    "catalog_entries": 9
+  },
+  "browser_visual_review": {
+    "screenshot": "previews/library-browser.png",
+    "reviewed": true,
+    "checks": [
+      "readable cards and previews",
+      "compatibility total 2737",
+      "search and selectors visible"
+    ]
+  },
+  "public_release_note": "Historical native-container evidence only; local database, models and previews are not distributed."
+}
